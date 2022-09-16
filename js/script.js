@@ -19,6 +19,7 @@ fetch('https://shazam.p.rapidapi.com/songs/list-artist-top-tracks?id=40008598&lo
 
 function createAlbom(response) {
     // console.log(response);
+    document.querySelector('.load').remove();
     response.forEach((item) => {
         
         let card = document.createElement('div')
