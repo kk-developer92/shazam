@@ -25,7 +25,7 @@ function createAlbom(response) {
   
         card.classList.add('card')
   
-        console.log(item.hub.actions[1].uri);
+//         console.log(item.hub.actions[1].uri);
 
         let music = item.hub.actions[1].uri;
 
